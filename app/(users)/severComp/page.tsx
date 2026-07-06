@@ -10,7 +10,7 @@ export default async function page() {
 
             <div className="w-200 h-200">
                 {
-                    data.map((ele,ind)=>(
+                    data.map((ele: any, ind: number)=>(
                         <div key={ind} className="w-200 h-200">
                             <h2>{ele.title}</h2>
                             <p>{ele.body}</p>

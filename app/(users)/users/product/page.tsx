@@ -1,6 +1,6 @@
 import ProductList from "./productList";
 import { use } from "react";
-export default async function Product({searchParams}){ 
+export default async function Product({searchParams}: { searchParams: Promise<{ [key: string]: string | string[] | undefined }> }){ 
    
     const searchparam=use(searchParams);
   

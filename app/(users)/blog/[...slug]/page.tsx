@@ -1,5 +1,5 @@
 
-export default async function pages(props) {
+export default async function pages(props :any) {
     const {slug}=await props.params;
     console.log(slug);
   return (

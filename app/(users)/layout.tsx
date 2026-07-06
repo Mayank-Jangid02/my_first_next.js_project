@@ -12,7 +12,7 @@ const worksense= Work_Sans({
   variable:'--font-worksense'
   
 })
-export default function RootLayout({children}){
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body className={`${roboto.variable} ${worksense.variable}`}>

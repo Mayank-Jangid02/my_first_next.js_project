@@ -1,7 +1,7 @@
 'use client'
 import {useState,useEffect} from 'react'
 export default function randomjokes() {
-    const [jokes,setjokes]=useState({});
+    const [jokes,setjokes]=useState<any>({});
     const fetchrandomjokes=async()=>{
         let url='https://official-joke-api.appspot.com/random_joke';
         const res =await fetch(url);

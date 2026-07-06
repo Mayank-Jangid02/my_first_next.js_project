@@ -6,7 +6,7 @@ import prof from "../../public/prof.jpg"
 import { handleAction } from "next/dist/server/app-render/action-handler";
 
 
-function handleAction1(e) {
+function handleAction1(e: any) {
     e.preventDefault();
     alert("hello");
 }
