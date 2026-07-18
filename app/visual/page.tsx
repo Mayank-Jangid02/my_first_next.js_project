@@ -44,15 +44,4 @@ const edges = [
   }
 ];
 
-export default function App() {
-  getdata();
-  getdata();
-  return (
-    // <div style={{ width: "100vw", height: "100vh" }}>
-    //   <ReactFlow nodes={nodes} edges={edges} />
-    // </div>
-    <div>
-   <h1>hello visual</h1>
-    </div>
-  );
-}
+ 
